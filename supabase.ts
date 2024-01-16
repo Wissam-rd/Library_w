@@ -1,0 +1,4 @@
+import { createClient } from "@supabase/supabase-js";
+const supabaseUrl="https://vwdufkxcsvsywmjjbffm.supabase.co/rest/v1/reservations"
+const supabaseKey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3ZHVma3hjc3ZzeXdtampiZmZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDAzODk3ODIsImV4cCI6MjAxNTk2NTc4Mn0.SnraTVQnGrZvPDKhtuwmdgaPZvshlSFEvDreUFnRp9c"
+export const supabase=createClient(supabaseUrl,supabaseKey);
